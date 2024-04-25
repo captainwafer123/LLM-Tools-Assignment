@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Playstation</title>
+	<style>
+		/* Global Styles */
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		/* Header Styles */
+		.header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		.header a {
+			color: #fff;
+			text-decoration: none;
+		}
+		
+		.header a:hover {
+			color: #ccc;
+		}
+		
+		/* Navigation Styles */
+		.nav {
+			background-color: #444;
+			padding: 10px;
+			text-align: center;
+		}
+		
+		.nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.nav li {
+			display: inline-block;
+			margin-right: 20px;
+		}
+		
+		.nav a {
+			color: #fff;
+			text-decoration: none;
+		}
+		
+		.nav a:hover {
+			color: #ccc;
+		}
+		
+		/* Product Styles */
+		.product {
+			background-color: #f7f7f7;
+			padding: 20px;
+			margin-bottom: 20px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.product img {
+			width: 100%;
+			height: 150px;
+			object-fit: cover;
+			border-radius: 10px;
+		}
+		
+		.product h2 {
+			margin-top: 0;
+		}
+		
+		.product p {
+			margin-bottom: 20px;
+		}
+		
+		/* Footer Styles */
+		.footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			clear: both;
+		}
+		
+		/* Form Styles */
+		.form {
+			background-color: #f7f7f7;
+			padding: 20px;
+			margin-bottom: 20px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.form label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		
+		.form input[type="text"],.form input[type="email"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+		}
+		
+		.form input[type="submit"] {
+			background-color: #333;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 10px;
+			cursor: pointer;
+		}
+		
+		.form input[type="submit"]:hover {
+			background-color: #444;
+		}
+		
+		/* Colorful Background */
+		body {
+			background-image: linear-gradient(to bottom, #0099ff, #ff99ff);
+			background-size: 100% 300px;
+			background-position: 0% 100%;
+		}
+	</style>
+</head>
+<body>
+	<!-- Header -->
+	<header class="header">
+		<nav class="nav">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- Products -->
+	<section>
+		<div class="product">
+			<img src="ps5.jpg" alt="Playstation 5">
+			<h2>Playstation 5</h2>
+			<p>The Playstation 5 is the latest console from Sony, featuring a powerful AMD Ryzen processor, 8GB of GDDR6 RAM, and a custom Radeon Navi GPU.</p>
+			<p>Price: $399.99</p>
+		</div>
+		<div class="product">
+			<img src="ps4.jpg" alt="Playstation 4">
+			<h2>Playstation 4</h2>
+			<p>The Playstation 4 is a popular console from Sony, featuring a powerful AMD Jaguar processor, 8GB of GDDR5 RAM, and a custom Radeon GPU.</p>
+			<p>Price: $299.99</p>
+		</div>
+		<div class="product">
+			<img src="psvr.jpg" alt="Playstation VR">
+			<h2>Playstation VR</h2>
+			<p>The Playstation VR is a virtual reality headset that allows you to play Playstation 4 games in VR.</p>
+			<p>Price: $99.99</p>
+		</div>
+	</section>
+	
+	<!-- Footer -->
+	<footer class="footer">
+		<p>&copy; 2022 - My Game Store</p>
+	</footer>
+	
+	<!-- Form -->
+	<section class="form">
+		<h2>Sign up for updates</h2>
+		<form action="#">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<input type="submit" value="Subscribe">
+		</form>
+	</section>
+</body>
+</html>
