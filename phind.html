@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStation Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #00a0dc;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #0070b3;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .product-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .product-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #0070b3;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .contact-form h2 {
+            margin-bottom: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .contact-form button {
+            background-color: #00a0dc;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PlayStation Company</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section class="product-section">
+        <div class="product-card">
+            <img src="playstation-5.jpg" alt="PlayStation 5">
+            <h3>PlayStation 5</h3>
+            <p>The PlayStation 5 is the latest gaming console from Sony, offering high-speed SSD storage, ray tracing, and a powerful GPU.</p>
+        </div>
+        <!-- Add more product cards as needed -->
+    </section>
+    <footer>
+        <p>&copy; 2024 PlayStation Company. All rights reserved.</p>
+    </footer>
+    <section class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
